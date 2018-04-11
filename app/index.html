@@ -9,11 +9,9 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&amp;subset=latin-ext" rel="stylesheet">
 
   <!-- CSS -->
+  <!-- build:css styles/main.css -->
   <link href="styles/main.css" rel="stylesheet">
-
-  <!-- JS -->
-  <script src="scripts/vendor/modernizr-2.8.3.min.js"></script>
-  <script src="scripts/vendor/jquery-1.12.0.min.js"></script>
+  <!-- build:css styles/main.css -->
 </head>
 
 <body>
@@ -83,9 +81,16 @@
     </div>
 
     <!-- JS -->
+    <!-- build:js scripts/vendor.js -->
+    <script src="scripts/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="scripts/vendor/jquery-1.12.0.min.js"></script>
     <script src="scripts/plugins/slick.min.js"></script>
     <script src="scripts/plugins/animate-headline.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>
